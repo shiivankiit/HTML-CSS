@@ -1,0 +1,64 @@
+<!-- Use to change the appearance of HTML elements -->
+ <!-- CSS Selector:-Which elements we're targeting -->
+<style>
+    .subscribe-btn{
+        background-color: red;
+        color: white;
+        border: none;
+        height: 30px;
+        width: 105px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 10px;
+        transition: opacity 1s;
+    }
+    /* Hover effect pseudo class*/
+    .subscribe-btn:hover{
+        /* Opacity is used to fade out an element:value 0 to 1 */
+        opacity: 0.3;
+        background-color: green;
+    }
+    .subscribe-btn:active{
+        opacity: 0.5;
+        background-color: blue;
+    }
+    .Join-btn{
+        background-color: white;
+        color: rgb(41, 118, 211);
+        border-color: rgb(41, 118, 211);
+        border-style: solid;
+         height: 30px;
+         width: 105px;
+         border-radius: 5px;
+         cursor: pointer;
+         transition: background-color 1s;
+         color: 1s;
+    }
+    .Join-btn:hover{
+        background-color: rgb(41, 118, 211);
+        color: white;
+    }
+    .Join-btn:active{
+        opacity: 0.7;
+    }
+    .tweet-btn{
+        background-color: rgb(37, 122, 250);
+        color: white;
+        border: none;
+        border-radius: 15px;
+        width: 105px;
+        height: 30px;
+        cursor: pointer;
+        font-weight: bold;
+        /* It takes out the four values */
+        /* in rgba where a is opacity of color */ 
+        transition: box-shadow 0.15s;
+    }
+    .tweet-btn:hover{
+         box-shadow:5px 5px 10px rgba(0,0,0,0.15) ;  
+        /* box-shadow:horizontal vertical blur and color */
+    }
+</style>
+<button class="subscribe-btn">SUBSCRIBE</button>
+<button class="Join-btn">JOIN</button>
+<button class="tweet-btn">Tweet</button>

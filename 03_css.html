@@ -1,0 +1,56 @@
+<!-- Chrome dev tools and css box model -->
+ <!-- Use to change the appearance of HTML elements -->
+ <!-- CSS Selector:-Which elements we're targeting -->
+<style>
+    .subscribe-btn{
+        background-color: red;
+        color: white;
+        border: none;
+        height: 30px;
+        width: 105px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: opacity 1s;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-left: 20px;
+        margin-right: 30px;
+    }
+    .Join-btn{
+        background-color: white;
+        color: rgb(41, 118, 211);
+        border-color: rgb(41, 118, 211);
+        border-style: solid;
+         height: 30px;
+         width: 105px;
+         border-radius: 5px;
+         cursor: pointer;
+         transition: background-color 1s;
+         color: 1s;
+    }
+    .tweet-btn{
+        background-color: rgb(37, 122, 250);
+        color: white;
+        border: none;
+        border-radius: 15px;
+        width: 105px;
+        height: 30px;
+        cursor: pointer;
+        font-weight: bold;
+        /* It takes out the four values */
+        /* in rgba where a is opacity of color */ 
+        transition: box-shadow 0.15s;
+    }
+</style>
+<button class="subscribe-btn">SUBSCRIBE</button>
+<button class="Join-btn">JOIN</button>
+<button class="tweet-btn">Tweet</button>
+
+<!-- CSS Box Model -->
+<!-- How much space an element takes up -->
+<!-- How far it is away from other elements -->
+<!-- Adding space outside the box we use margin. -->
+<!-- Adding space inside the button is called padding. -->
+<!-- Instead of fixing the height and width of an element use padding and margin to set it correctly -->
