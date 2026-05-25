@@ -56,3 +56,29 @@ It consists of:
 - Padding → Space inside the element
 - Border → Outline around the element
 - Margin → Space outside the element
+---------------------------------------------------------------------------------------
+# Text-Styles[04_text.html]
+
+This code demonstrates how to style text using HTML and CSS.
+It recreates a simple YouTube-style text layout and a promotional banner.
+
+ ## The Web-page contains:
+
+A video title
+Video statistics
+Channel information
+Video description
+A promotional banner with a hoverable "Shop now" text
+
+## By bulding this page I learned a concept
+By building this project, you practiced:
+HTML paragraphs
+CSS classes
+Font styling
+Margins & padding
+Inline vs block elements
+Hover effects
+Span usage
+Text alignment
+Basic UI styling
+
