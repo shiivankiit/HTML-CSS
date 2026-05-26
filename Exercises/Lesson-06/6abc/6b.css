@@ -1,0 +1,43 @@
+ #btn1 {
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  #btn2 {
+    padding: 10px;
+    margin-left: 10px;
+  }
+  a {
+    margin: 5px;
+  }
+  #btn3 {
+    background-color: green;
+    border: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: transform 0.4s;
+    margin-bottom: 40px;
+  }
+  #btn3:hover {
+    transform: scale(1.5);
+  }
+  #btn4{
+     background-color: green;
+    border: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 40px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+  }
+  #btn4:active{
+    margin-top: 3px;
+    margin-left: 3px;
+    box-shadow: none;
+  }
+  
