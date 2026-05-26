@@ -1,0 +1,80 @@
+<!-- The HTML Structure -->
+<!-- Uses the modern syntax of html -->
+<!-- <!doctype html>
+<html>
+  <p>HTML tag represents the entire web page</p>
+  <head>
+    <p>Contains all element which are not visible at the page</p>
+    <title>HTML Structure</title>
+  </head>
+  <body>
+    <p>Contains all the code which is visible on the page</p>
+    <p>Live server extension reload the page automatically</p>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Buttons</title>
+
+  <style>
+    .subscribe-btn {
+      background-color: red;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: opacity 0.15s;
+      margin-right: 20px;
+    }
+
+    .subscribe-btn:hover {
+      opacity: 0.7;
+    }
+
+    .join-btn {
+      background-color: white;
+      color: rgb(41, 118, 211);
+      border: 1px solid rgb(41, 118, 211);
+      padding: 10px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.15s, color 0.15s;
+      margin-right: 20px;
+    }
+
+    .join-btn:hover {
+      background-color: rgb(41, 118, 211);
+      color: white;
+    }
+
+    .tweet-btn {
+      background-color: rgb(37, 122, 250);
+      color: white;
+      border: none;
+      border-radius: 20px;
+      padding: 10px 16px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: box-shadow 0.15s;
+    }
+
+    .tweet-btn:hover {
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+
+<body>
+  <button class="subscribe-btn">SUBSCRIBE</button>
+
+  <button class="join-btn">JOIN</button>
+
+  <button class="tweet-btn">Tweet</button>
+</body>
+</html>
