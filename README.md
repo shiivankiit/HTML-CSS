@@ -1,10 +1,12 @@
- # HTML Basics Example
+# Lectures Brief.
+
+# HTML Basics Example
 
 This file demonstrates some basic HTML elements:
 
-- A <button> element
-- A <p> paragraph element
-- An <a> anchor tag for creating links
+- A button element
+- A p paragraph element
+- An anchor tag for creating links
 
 ----------------------------------------------------------------------------------------
 
