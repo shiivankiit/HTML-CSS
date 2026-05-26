@@ -1,0 +1,113 @@
+<style>
+  #btn1 {
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  #btn2 {
+    padding: 10px;
+    margin-left: 10px;
+  }
+  a {
+    margin: 5px;
+  }
+  #btn3 {
+    background-color: green;
+    border: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: transform 0.4s;
+    margin-bottom: 40px;
+  }
+  #btn3:hover {
+    transform: scale(1.5);
+  }
+  #btn4{
+     background-color: green;
+    border: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 40px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+  }
+  #btn4:active{
+    margin-top: 3px;
+    margin-left: 3px;
+    box-shadow: none;
+  }
+  
+</style>
+
+<button id="btn1">Back</button>
+<a href="https://www.youtube.com/" target="_blank">1</a>
+<a href="https://www.youtube.com/">2</a>
+<a href="https://www.youtube.com/">3</a>
+<a href="https://www.youtube.com/">4</a>
+<button id="btn2">Next</button>
+<br />
+<button id="btn3">Stretch</button>
+<br>
+<button id="btn4">Shadow</button>
+
+
+
+
+<!-- Difference between Transform and Transition -->
+<!-- 
+CSS Transform:-It modifies the shape and position of an element 
+in 2D or 3D space.Common function include
+
+rotate(angle):-Spins the element(eg.rotate(45deg)).
+scale(x,y):-Resizes the element(e.g,scale(1.5)makes it 50% larger).
+translate(x,y):Moves the element from its current position(e.g..translate(20px,50px)).
+skew(x,y):Tilts the element along its axes
+
+--------------------------------------------------------------------------------------------
+CSS Transition:The transition property allows you to change property
+values smoothly over a given duration.It is typically triggered by a 
+state change like :hover or :focus
+
+A transition is made up four sub-properties.
+
+1--transition-property:The name of the property you want to
+animate(e.g transform,background-color,all)
+2--transition-duration:How long the animation lasts(e.g..0.3s)
+3--transition-timing-function:The "speed curve" of the animation
+(e.g..,ease,linear,ease-in-out).
+4--transition-delay:How long to wait before the animation starts.
+-->
+
+
+
+<!--CSS Box-Model-->
+<!-- The css box-shadow property is used to apply one or more 
+ shadows to an element.
+ -You can only specify the horizontal and the vertical offset of the
+ shadow.
+ CSS Horizontal and Vertical Shadow:
+ You only specify the horizontal and the vertical offset of the shadow.
+ The default color of the shadow is hte current text color.
+ Example:Specify a horizontal and a vertical shadow.
+        div{
+        box-shadow:10px 10px;
+        }
+ Specify a Color of the Shadow.
+ The color parameter defines the color of the shadow.
+ Example:-Specify a color for the shadow.
+ div{
+     box-shadow:10px 10px lightblue;
+ }
+ //Add a blur effect to the shadow.(5px)
+ div{
+ box-shadow:10px 10px 5px lightblue
+ }
+ You can also add inset,spread radius of the Shadow
+ and many more to it.
+ 
+-->
