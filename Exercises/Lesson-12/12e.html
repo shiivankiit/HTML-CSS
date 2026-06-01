@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Box</title>
+    <style>
+        .main{
+           width: 300px;
+          border: 1px solid gray;
+          border-radius: 5px;
+        }
+        .flexbox{
+            font-family: Arial;
+            display: flex;
+            justify-content: space-between;
+            margin: 15px;
+        }
+        .notification{
+            height: 20px;
+            width: 25px;
+            border-radius: 20px;
+            color: white;
+            font-weight: bold;
+            background-color: rgb(23, 132, 222);
+            padding-left: 12px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right: 8px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="flexbox">
+            <div>Home</div>
+            <div class="notification">14</div>
+        </div>
+         <div class="flexbox">
+            <div>Notifications</div>
+            <div class="notification">3</div>
+        </div>
+         <div class="flexbox">
+            <div>Messages</div>
+            <div class="notification">14</div>
+        </div>
+    </div>
+</body>
+</html>
