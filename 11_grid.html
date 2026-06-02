@@ -1,0 +1,100 @@
+<!-- 
+   display:inline-block--It has some alignmet problem.
+   To overcome it we use grid
+   What is a grid:A grid has a layout whihc has rows and columns.
+   grid-template-colums:The no of value determinets the no of columns and the width itself
+
+   CSS Grid Layout Module:--
+   allows developers to easily create complex web layouts.
+   Grid is used for two dimwsion layout,with rows and columns.
+   CCS flexbox is used for one-dimensional layout,with rows OR columns
+
+   A grid always consists of:--
+
+   A Grid Container - The parent (container) element, where the display property is set to grid or inline-grid
+   One or more Grid Items - The direct children of the grid container automatically becomes grid items.
+
+   CSS Grid Tracks(Rows and Columns).
+   Inside grid container you define the no and size of the grid columns and rows.
+
+   grid-template-columns - Defines the number and width of the columns in the grid
+   grid-template-rows - Defines the number and height of the rows in the grid
+   grid-template-areas - Defines how to display columns and rows, using named grid items
+
+   
+  -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Practice</title>
+  </head>
+  <body style="padding-bottom: 1000px">
+    <div
+      style="
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 100px 100px;
+      "
+    >
+      <div style="background-color: coral">div1</div>
+      <div style="background-color: hotpink">
+        div2
+        <p>text</p>
+      </div>
+    </div>
+    <div
+      style="
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 100px 100px 200px;
+      "
+    >
+      <div style="background-color: coral">100px</div>
+      <div style="background-color: hotpink">
+        100px
+        <p>text</p>
+      </div>
+      <div style="background-color: orange">200px</div>
+      <div style="background-color: hotpink">100px</div>
+    </div>
+
+    <div
+      style="margin-top: 30px; display: grid; grid-template-columns: 100px 1fr"
+    >
+      <div style="background-color: coral">100px</div>
+      <div style="background-color: orange">100px</div>
+    </div>
+
+    <div
+      style="
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 100px 1fr 2fr;
+      "
+    >
+      <div style="background-color: coral">100px</div>
+      <div style="background-color: orange">100px</div>
+      <div style="background-color: coral">100px</div>
+    </div>
+
+    <div
+      style="
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px
+        ;
+      "
+    >
+      <div style="background-color: coral; height: 200px">100px</div>
+      <div style="background-color: orange; height: 200px">100px</div>
+      <div style="background-color: coral; height: 200px">100px</div>
+      <div style="background-color: orange; height: 200px">100px</div>
+      <div style="background-color: coral; height: 200px">100px</div>
+      <div style="background-color: orange; height: 200px">100px</div>
+    </div>
+  </body>
+</html>
