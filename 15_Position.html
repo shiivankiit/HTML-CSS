@@ -1,0 +1,108 @@
+<!-- Position Absolute and Relative -->
+
+<!doctype html>
+<html>
+  <head>
+    <title>Position-Practice</title>
+  </head>
+  <body style="height: 3000px; padding-top: 60px; padding-left: 80px">
+    <div
+      style="
+        background-color: black;
+        color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0px;
+        height: 50px;
+        z-index: 1;
+      "
+    >
+      header
+    </div>
+    <div
+      style="
+        background-color: greenyellow;
+        color: white;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 50px;
+        width: 72px;
+      "
+    >
+      sidebar
+      <div
+        style="
+          position: absolute;
+          background-color: red;
+          color: white;
+          top: 0;
+          right: 0;
+        "
+      >
+        x
+      </div>
+    </div>
+    <div
+      style="
+        position: absolute;
+        background-color: red;
+        color: white;
+        top: 70px;
+        right: 10px;
+        z-index: 2;
+      "
+    >
+      absolute
+    </div>
+    <div
+      style="
+        background-color: lightblue;
+        height: 200px;
+        width: 200px;
+        position: static;
+      "
+    >
+      div1
+    </div>
+    <div style="
+    background-color: lightpink; 
+    height: 200px;
+     width: 200px;
+     position: relative;">
+      div2
+      <div style="
+         position: absolute;
+         background-color: red;
+         color: white;
+         right: 10px;
+         bottom: 10px;
+      ">
+        absolute
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- Absolute in css:--
+     removes an element from the normal documnet flow,
+     meaning it no longer occupies space in the layout
+     and other elements may overlap it.and it adjust an
+     element's position relative to its parent.If no parent
+     element is present,the documnet body is used as the parent.
+
+     fixed=placed in the browser window.
+     absolute=placed on the page.
+
+     browser window is always fixed while
+     page is moving top and bottom.
+     so fixed works on browser-window
+     and absolute works on page.
+
+
+     z-index CSS property controls the stacking
+     order of overlapping elements,determining
+     which appears in front or behind others along
+     the z-axis(depth).
+  -->
