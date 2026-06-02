@@ -11,61 +11,82 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <style>
-      div {
-        font-family: Roboto;
-      }
-      .thumbnail {
-        width: 100%;
-      }
-      .search-bar {
-        display: block;
-      }
-  
-      .video-info-grid {
-        display: grid;
-        grid-template-columns: 50px 1fr;
-      }
-      .profile-picture {
-        border-radius: 50px;
-        width: 40px;
-      }
-      .video-title {
-        margin-top: 0;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 20px;
-        margin-bottom: 0;
-      }
-      .video-author {
-        font-size: 12px;
-        color: gray;
-        margin-bottom: 0;
-        margin-top: 6px;
-      }
-      .video-stats {
-        font-size: 12px;
-        color: gray;
-        margin-top: 4px;
-      }
-      .thumbnail-row {
-        margin-bottom: 10px;
-      }
-      .video-grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 15px;
-        row-gap: 40px;
-      }
-    </style>
+    <link rel="stylesheet" href="10_youtube.css" />
   </head>
   <body>
-    <input class="search-bar" type="text" placeholder="Search" />
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="Images/hamburger-menu.svg" alt="" />
+        <img class="youtube-logo" src="Images/youtube-logo.svg" alt="youtube" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-btn">
+          <img class="search-icon" src="Images/search.svg" alt="search-icon" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-btn">
+          <img
+            class="voice-icon"
+            src="Images/voice-search-icon.svg"
+            alt="voice-icon"
+          />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+           <img class="upload-icon" src="Images/upload.svg" />
+           <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-icon">
+           <img class="youtube-apps-icon" src="Images/youtube-apps.svg" />
+           <div class="tooltip">Youtube apps</div>
+        </div>
+       
+        <div class="notification-count">
+          <img class="notifications-icon" src="Images/notifications.svg" />
+          <div class="count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+
+        <img class="current-user" src="Images/my-channel.jpeg" alt="" />
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="Images/home.svg" alt="">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Images/explore.svg" alt="">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Images/subscriptions.svg" alt="">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Images/originals.svg" alt="">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Images/youtube-music.svg" alt="">
+        <div>Youtube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Images/library.svg" alt="">
+        <div>Library</div>
+      </div>
+    </div>
+
     <div class="video-grid">
       <div class="video-preview">
         <!-- Vertical Layouts -->
         <div class="thumbnail-row">
           <img class="thumbnail" src="Images/thumbnail-1.webp" alt="Image1" />
+          <div class="video-time">14:25</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -89,6 +110,7 @@
         <!-- Vertical Layouts -->
         <div class="thumbnail-row">
           <img class="thumbnail" src="Images/thumbnail-2.webp" alt="Image1" />
+           <div class="video-time">8:22</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -110,6 +132,7 @@
         <!-- Vertical Layouts -->
         <div class="thumbnail-row">
           <img class="thumbnail" src="Images/thumbnail-3.webp" alt="Image1" />
+           <div class="video-time">9:13</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -133,6 +156,7 @@
         <!-- Vertical Layouts -->
         <div class="thumbnail-row">
           <img class="thumbnail" src="Images/thumbnail-4.webp" alt="Image1" />
+           <div class="video-time">8:25</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -143,7 +167,9 @@
             />
           </div>
           <div class="video-info">
-            <p class="video-title">The Simplest Math Problem No One Can Solve-Collatz Conjecture</p>
+            <p class="video-title">
+              The Simplest Math Problem No One Can Solve-Collatz Conjecture
+            </p>
             <p class="video-author">Veritasium</p>
             <p class="video-stats">18M views &#183; 4 months ago</p>
           </div>
@@ -154,6 +180,7 @@
         <!-- Vertical Layouts -->
         <div class="thumbnail-row">
           <img class="thumbnail" src="Images/thumbnail-5.webp" alt="Image1" />
+           <div class="video-time">10:23</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -165,7 +192,7 @@
           </div>
           <div class="video-info">
             <p class="video-title">
-               Kadane's Algorithm to Maximum Sum Subarray Problems
+              Kadane's Algorithm to Maximum Sum Subarray Problems
             </p>
             <p class="video-author">CS Dojo</p>
             <p class="video-stats">519k views &#183; 5 years ago</p>
@@ -177,6 +204,7 @@
         <!-- Vertical Layouts -->
         <div class="thumbnail-row">
           <img class="thumbnail" src="Images/thumbnail-6.webp" alt="Image1" />
+           <div class="video-time">20:30</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -187,7 +215,9 @@
             />
           </div>
           <div class="video-info">
-            <p class="video-title">Anything You can Fit In the Circel I'll Pay For</p>
+            <p class="video-title">
+              Anything You can Fit In the Circel I'll Pay For
+            </p>
             <p class="video-author">MrBeast</p>
             <p class="video-stats">14M views &#183; 1 years ago</p>
           </div>
