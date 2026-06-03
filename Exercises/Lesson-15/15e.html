@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <title>Shirt-style</title>
+    <style>
+      img {
+        width: 250px;
+        height: 300px;
+        object-fit: cover;
+      }
+      .image {
+        position: relative;
+        display: inline-block;
+      }
+      .percent {
+        position: absolute;
+        top: 5px;
+        right: 0;
+        background-color: black;
+        color: white;
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: Arial;
+      }
+
+      .bottom-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 80px;
+        background-color: rgba(255, 255, 255, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .add-to-cart-button {
+        background-color: white;
+        border-width: 1px;
+        border-style: solid;
+        border-color: black;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image">
+      <img src="shirt.jpg" alt="shirt-image" />
+      <div class="percent">20% OFF</div>
+      <div class="bottom-overlay">
+        <button class="add-to-cart-button">Add to cart</button>
+      </div>
+    </div>
+  </body>
+</html>
