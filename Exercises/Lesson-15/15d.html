@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>Position Absolute and Relative</title>
+    <style>
+      body {
+        height: 3000px;
+      }
+      .square {
+        position: fixed;
+        width: 200px;
+        height: 100px;
+        background-color: gray;
+        bottom: 0;
+        right: 0;
+      }
+      .twitter {
+        position: absolute;
+        top: -15px;
+        left: -15px;
+        background-color: black;
+        color: white;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50px;
+        font-family: Arial;
+        font-size: 20px;
+      }
+      .time{
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        background-color: black;
+        color: white;
+        padding: 3px 4px 3px 4px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="square">
+      <div class="twitter">X</div>
+      <div class="time">0:29</div>
+    </div>
+  </body>
+</html>
