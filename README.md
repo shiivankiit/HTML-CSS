@@ -1909,3 +1909,10 @@ After completing this lesson, you can create:
 - Advanced webpage layouts
 
 CSS positioning is an essential concept for building modern responsive websites.
+---------------------------------------------------------------------------------------------
+# Projects
+ -By learning HTML and css .....We have done the completion of Youtube clone-Project.
+ All code present inside the 10th lecture which contains HTML and CSS code.
+
+ <img width="707" height="437" alt="Screenshot 2026-06-15 003332" src="https://github.com/user-attachments/assets/17a3d134-3e9a-4e6c-bb81-a7c8ba10764e" />
+
